@@ -1,10 +1,15 @@
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem 2rem;
-  color: var(--color-white);
+.btn {
+  display: inline-block;
+  min-height: 4.5rem;
+  padding: 1.3rem 2.4rem;
+  color: #fff;
+  text-align: center;
   background-color: var(--color-purple);
   border-radius: 1.2rem;
-  min-height: 4.5rem;
+  cursor: pointer;
+  transition: background-color var(--transition), color var(--transition);
+
+  &:hover {
+    background-color: #802c97;
+  }
 }

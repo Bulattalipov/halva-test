@@ -10,6 +10,7 @@
   &__text-promo {
     position: relative;
     top: 1.3rem;
+    left: 0.7rem;
     display: inline-block;
     padding: 0.8rem;
     border: 0.1rem dashed var(--color-grey);
@@ -49,6 +50,7 @@
     width: 15rem;
     height: 15rem;
     transition: box-shadow var(--transition);
+    opacity: 0;
 
     &:hover {
       box-shadow: 0 0rem 1rem 0 #9433af;
@@ -71,14 +73,12 @@
 
     &:nth-child(1) {
       z-index: 3;
-      top: 1rem;
-      left: 0rem;
-      margin-right: 2rem;
-      margin-top: 2rem;
+      top: 2rem;
+      left: -3rem;
     }
 
     &:nth-child(2) {
-      top: 13rem;
+      top: 16rem;
       left: 12rem;
       margin-left: -1rem;
       z-index: 1;
@@ -86,7 +86,7 @@
 
     &:nth-child(3) {
       top: 0.4rem;
-      right: 0rem;
+      right: -3rem;
     }
 
     &:hover {
@@ -113,10 +113,11 @@
   }
 
   &__price-promo {
-
+    font-size: 1.8rem;
   }
 
   &__price-total {
+    font-size: 1.8rem;
     color: var(--color-grey);
   }
 

@@ -34,18 +34,8 @@
     fill: var(--color-dark);
     transition: stroke var(--transition), fill var(--transition);
 
-    &:hover {
-
+    &--sun {
+      display: none;
     }
-  }
-}
-
-
-.logo {
-  display: block;
-
-  &__img {
-    height: 2.8rem;
-    width: 13.2rem;
   }
 }
