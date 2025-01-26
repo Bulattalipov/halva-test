@@ -1,0 +1,25 @@
+/* stylelint-disable no-invalid-position-at-import-rule */
+:root {
+  --index: calc(1vw);
+  /* typography  */
+  --main-ff: Montserrat, sans-serif;
+  --second-ff: Roboto, Arial, sans-serif;
+
+  /* colors */
+  --color-dark: #121212;
+  --color-bg: #f3f4f7;
+  --color-white: #fff;
+  --color-grey: #9FA0A7;
+  --color-blue: #2f5dd3;
+  --color-purple:#9433af;
+  --font-body: 400 1.6rem/1.2 var(--main-ff);
+
+  /* etc */
+  --transition: 200ms ease-in;
+}
+
+@import "./helpers/**/*";
+@import "./vendor/**/*";
+@import "./settings/**/*";
+@import "./UI/**/*";
+@import "./pages/**/*";

@@ -1,0 +1,28 @@
+.advantages {
+  &__title {
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+
+    @include mq(sm) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mq(custom, max, 640) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  &__list-item {
+    flex: 33.3%;
+    background-color: #DA498D;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    color: var(--color-white);
+  }
+}

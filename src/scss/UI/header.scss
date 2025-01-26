@@ -1,0 +1,51 @@
+.header {
+  padding: 1.6rem 0;
+  border-bottom: 0.1rem solid var(--color-grey);
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__theme {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0.1rem solid var(--color-dark);
+    cursor: pointer;
+    transition: border-color var(--transition);
+
+    &:hover {
+      border-color: var(--color-grey);
+
+      .header__theme-icon {
+        fill: var(--color-grey);
+        stroke: var(--color-grey);
+      }
+    }
+  }
+
+  &__theme-icon {
+    stroke: var(--color-dark);
+    fill: var(--color-dark);
+    transition: stroke var(--transition), fill var(--transition);
+
+    &:hover {
+
+    }
+  }
+}
+
+
+.logo {
+  display: block;
+
+  &__img {
+    height: 2.8rem;
+    width: 13.2rem;
+  }
+}
